@@ -13,9 +13,7 @@ import retrofit2.http.POST;
  */
 
 public interface GetTerminalService {
-//    @GET("/static/catalog/terminals_v3.json")
-//    @GET("/s/39eecj6jed4p1kl/")
-//    @GET("/drive/u/0/folders/0B-7vtpCo5MCvV2c1WEdUQ0lvbnM")
-    @GET("/bins/ighfz")
+    @GET("/static/catalog/terminals_v3.json")
+//    @GET("/bins/ighfz")
     Call<JsonResponse> getCitiesJson();
 }

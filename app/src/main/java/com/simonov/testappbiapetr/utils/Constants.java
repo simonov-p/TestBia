@@ -24,9 +24,7 @@ public interface Constants {
     }
 
     public interface URL {
-//        String API_URL = "https://api.dellin.ru/static/catalog/";
-//        String API_URL = "https://www.dropbox.com/s/39eecj6jed4p1kl/";
-//        String API_URL = "https://drive.google.com/";
-        String API_URL = "https://api.myjson.com/";
+        String API_URL = "https://api.dellin.ru/static/catalog/";
+//        String API_URL = "https://api.myjson.com/";
     }
 }
